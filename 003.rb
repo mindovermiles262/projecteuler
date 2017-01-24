@@ -4,7 +4,7 @@ start = Time.now
 def factor(number)
   factors = []
   max = number.to_i
-  iteration = 1
+  iteration = 2
   while iteration < max
     if  number % iteration == 0
       max = number / iteration
