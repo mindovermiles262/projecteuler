@@ -21,4 +21,5 @@ def divide_by_all (divisor):
         dividend += divisor
     print("out:", output)
 
+divide_by_all(10) # 2520
 divide_by_all(20)
